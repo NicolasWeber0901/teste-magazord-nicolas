@@ -1,0 +1,31 @@
+name: teste_magazord_nicolas
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  intl: ^0.17.0
+  http: ^0.13.5
+  geolocator: ^9.0.2
+  font_awesome_flutter: ^10.3.0
+  connectivity_plus: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  assets: 
+  - assets/images/headset.png
+  - assets/images/headset-2.png
+  - assets/images/notebook.png
+  - assets/images/placa-video.png
+  - assets/images/processador.png
+  - assets/images/ssd.png
