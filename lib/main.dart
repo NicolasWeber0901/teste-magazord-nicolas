@@ -37,6 +37,7 @@ class _MainAppState extends State<MainApp> {
     );
   }
 
+  // Referente a Tarefa 4: Personalização de Tema
   ThemeData get _purpleTheme => ThemeData(
     primaryColor: Colors.purple,
     shadowColor: Colors.purple.shade100,
